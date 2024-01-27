@@ -19,5 +19,5 @@ my_fruit_list = my_fruit_list.set_index('Fruit')
 
 streamlit.multiselect("pick some fruit",(my_fruit_list.index),['Advaco','stabury'])
 
-#streamlit.dataframe(my_fruit_list)
+streamlit.dataframe(my_fruit_list)
 
